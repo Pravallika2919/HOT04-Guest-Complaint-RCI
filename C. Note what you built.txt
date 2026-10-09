@@ -1,0 +1,11 @@
+C. Note what you built
+
+Create a text file HOT04_Notes.txt with these names:
+
+Form: Raise a Complaint (Record Producer)
+SLA: Complaint Resolution
+Flow: Complaint SLA Escalation
+Dashboard: Guest Complaint Root-Cause Intelligence
+AI: Similar Guest Complaints, Guest Complaint Patterns
+Business Rule: Set Floor from Location
+Custom fields on Case: Root Cause, Floor
