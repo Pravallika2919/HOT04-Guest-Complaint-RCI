@@ -25,8 +25,8 @@ Hotels log guest complaints, but repeat problems (for example a faulty AC on one
 Equipment failure is the top root cause, concentrated in **AC Unit - Room 501 (Floor 5)**. The Problem record captures this, with a recommended preventive-maintenance fix.
 
 ## Repository contents
-- `screenshots/` : numbered screenshots 01-20 of every component
-- `data/` : Cases export (sn_customerservice_case.xlsx)
+- `*.png` : numbered screenshots 01-20 of every component
+- `sn_customerservice_case.xlsx` : Cases export (50 cases)
 - `HOT04_Notes.txt` : names of everything built
 - Demo video link: (add link here)
 
