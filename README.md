@@ -26,7 +26,7 @@ Key finding in the demo data
 Equipment failure is the top root cause, concentrated in AC Unit - Room 501 (Floor 5). The Problem record captures this, with a recommended preventive-maintenance fix.
 
 Repository contents
-screenshots/ : numbered screenshots 01-20 of every component
+screenshots/ : numbered screenshots 01-34 of every component (21-34 show tiered escalation, recurrence detection, corrective-action task, Virtual Agent and the 7-chart dashboard)
 update_sets/ : exported ServiceNow update set XML files
 data/ : Cases export (sn_customerservice_case.xlsx)
 docs/ : idea submission document
