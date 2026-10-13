@@ -27,7 +27,7 @@ Hotels log guest complaints, but repeat problems (for example a faulty AC on one
 Equipment failure is the top root cause, concentrated in **AC Unit - Room 501 (Floor 5)**. The Problem record captures this, with a recommended preventive-maintenance fix.
 
 ## Repository contents
-- `screenshots/` : numbered screenshots 01-34 of every component (21-34 show tiered escalation, recurrence detection, corrective-action task, Virtual Agent and the 7-chart dashboard)
+- `screenshots/` : numbered screenshots 01-35 of every component (21-35 show tiered escalation, recurrence detection, corrective-action task, Virtual Agent, the 7-chart dashboard and the management case)
 - `data/` : Cases export (sn_customerservice_case.xlsx)
 - `docs/` : idea submission document
 - Demo video link: (add link here)
@@ -36,6 +36,7 @@ Equipment failure is the top root cause, concentrated in **AC Unit - Room 501 (F
 - **Performance Analytics** is not available on this instance. Analytics run on Platform Analytics dashboards, including a trend chart.
 - **Integration Hub** connections to hotel systems (PMS, Housekeeping, F&B) are mocked for the hackathon, as stated in the idea document. Real connections are a production step.
 - **Mobile Agent App** is a production step and is not part of this demo.
+- **Escalated cases** get a higher priority and a work note for the Supervisor, Department Head and Management. Management sees every case on the dashboard. A "Hotel Management" group and a Critical demo case assigned to it show the management view. Automatic reassignment to a management group is a next step.
 
 ## Notes
 Data is demo data created for the hackathon. Some components (trained AI models, dashboards, survey responses) may not move with an update set, so the screenshots and demo video are the main proof.
