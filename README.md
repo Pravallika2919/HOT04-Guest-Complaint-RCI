@@ -30,7 +30,7 @@ Equipment failure is the top root cause, concentrated in **AC Unit - Room 501 (F
 - `screenshots/` : numbered screenshots 01-35 of every component (21-35 show tiered escalation, recurrence detection, corrective-action task, Virtual Agent, the 7-chart dashboard and the management case)
 - `data/` : Cases export (sn_customerservice_case.xlsx)
 - `docs/` : idea submission document
-- Demo video link: (add link here)
+- Demo video link: https://drive.google.com/drive/folders/1DnzWeM9q_gVWTAcBRywxPZR1dTIUPv2w
 
 ## Differences from the idea document (stated honestly)
 - **Performance Analytics** is not available on this instance. Analytics run on Platform Analytics dashboards, including a trend chart.
