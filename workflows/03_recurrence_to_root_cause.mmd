@@ -1,0 +1,15 @@
+flowchart LR
+  A["New complaint"] --> B{"3 or more similar<br/>in 30 days?<br/>(same place)"}
+  B -- No --> Z["Handled as a<br/>single case"]
+  B -- Yes --> C["Note added:<br/>Recurrence detected"]
+  C --> D["Predictive Intelligence<br/>groups similar complaints"]
+  D --> E["Linked to one<br/>Problem record"]
+  E --> F["Team confirms<br/>the root cause"]
+  F --> G["Corrective action task<br/>(for example for Facilities)"]
+  G --> H["Fixed once,<br/>fewer repeat complaints"]
+  classDef b fill:#E6F0FA,stroke:#1F6FB2,color:#032D42
+  classDef g fill:#E3F4EA,stroke:#1E9E5A,color:#032D42
+  classDef a fill:#FFF3D6,stroke:#E0A100,color:#032D42
+  class A,Z b
+  class B,C a
+  class D,E,F,G,H g

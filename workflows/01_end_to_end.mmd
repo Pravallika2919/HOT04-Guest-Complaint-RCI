@@ -1,0 +1,21 @@
+flowchart LR
+  A["Guest complaint<br/>form or chat"] --> B["Case created<br/>in CSM"]
+  B --> C["Routed to the<br/>right team"]
+  C --> D["4-hour timer<br/>starts"]
+  D --> E{"Resolved<br/>in time?"}
+  E -- No --> F["Automatic<br/>escalation"]
+  F --> G
+  E -- Yes --> G["Case resolved"]
+  G --> H["Guest survey<br/>(CSAT)"]
+  B --> I["Recurrence<br/>detection"]
+  I --> J["AI groups similar<br/>complaints"]
+  J --> K["One Problem<br/>(root cause)"]
+  K --> L["Corrective task<br/>for the team"]
+  H --> M["Manager dashboard"]
+  K --> M
+  classDef g fill:#E3F4EA,stroke:#1E9E5A,color:#032D42
+  classDef b fill:#E6F0FA,stroke:#1F6FB2,color:#032D42
+  classDef r fill:#FBE9E8,stroke:#D9534F,color:#032D42
+  class A,B,C,D,E,G,H b
+  class F r
+  class I,J,K,L,M g

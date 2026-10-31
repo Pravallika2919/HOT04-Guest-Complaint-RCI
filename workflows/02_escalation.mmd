@@ -1,0 +1,15 @@
+flowchart LR
+  S["Case created<br/>4-hour timer starts"] --> P1["75% of time used<br/>Priority goes up"]
+  P1 --> P2["90% of time used<br/>Department Head note"]
+  P2 --> P3["100% of time used<br/>Critical + Management note"]
+  S -. "resolved in time" .-> R["Case resolved<br/>Timer stops"]
+  P1 -. "resolved" .-> R
+  P2 -. "resolved" .-> R
+  classDef b fill:#E6F0FA,stroke:#1F6FB2,color:#032D42
+  classDef a fill:#FFF3D6,stroke:#E0A100,color:#032D42
+  classDef r fill:#FBE9E8,stroke:#D9534F,color:#032D42
+  classDef g fill:#E3F4EA,stroke:#1E9E5A,color:#032D42
+  class S b
+  class P1,P2 a
+  class P3 r
+  class R g
