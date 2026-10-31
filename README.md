@@ -79,14 +79,6 @@ The demo shows one complaint from the first click to the result:
 
 ▶️ **[DEMO serviceNOW.mp4](DEMO%20serviceNOW.mp4)** — Full end-to-end demo of the solution (26 MB)
 
-### 📹 Additional Recordings
-
-| Video | Description |
-|---|---|
-| [video.mp4](video%20recordings/video.mp4) | Extended demo recording |
-| [video2.mp4](video%20recordings/video2.mp4) | Additional demo recording |
-| [tab 6.mp4](video%20recordings/tab%206.mp4) | Tab 6 walkthrough |
-
 Where to find the pages in the instance: **Customer Service > Cases > All**, **Problem > All**, **Platform Analytics**.
 
 ---
@@ -188,10 +180,7 @@ images/
   workflow_02_escalation.png       Escalation workflow diagram
   workflow_03_recurrence_to_root_cause.png  Recurrence to root cause workflow diagram
 
-video recordings/
-  video.mp4                        Extended demo recording (129 MB)
-  video2.mp4                       Additional demo recording (59 MB)
-  tab 6.mp4                        Tab 6 walkthrough (4 MB)
+video recordings/               (not tracked in git — too large for GitHub)
 
 workflows/
   01_end_to_end.mmd                Mermaid source – end-to-end workflow
